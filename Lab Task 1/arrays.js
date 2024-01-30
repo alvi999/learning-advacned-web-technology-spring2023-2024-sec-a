@@ -19,3 +19,27 @@ fruits.unshift('pear');
 numbers.shift();
 
 console.log(numbers);
+
+//Array Iteration
+
+let number = [1, 2, 3, 4, 5];
+
+numbers.forEach( function(number) {
+    console.log(number);
+});
+
+//Array Iteration map
+let numbers = [1, 2, 3, 4, 5];
+let doubleNumbers= numbers.map(function(number)
+{
+    return number * 2;
+
+});
+console.log(doubleNumbers);
+
+const numbers1 = [1, 2, 3, 4, 5,6];
+const evennumbers1 =numbers1.filter(function(num){
+    return num %2===0;
+});
+   console.log(evennumbers1);
+
