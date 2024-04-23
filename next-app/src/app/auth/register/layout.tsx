@@ -8,11 +8,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <header>
-        <h1>Next.js Register Page</h1>
+        <h1>New World</h1>
       </header>
       <main>{children}</main>
       <footer>
-        <p>Footer content here</p>
+        <p>Welcome</p>
       </footer>
     </div>
   );
